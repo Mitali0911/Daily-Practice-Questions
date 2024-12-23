@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        int a = 9;
+        double b = 70.0;
+        double add = a+b;
+        System.out.println(add);
+     }
+}

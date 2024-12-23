@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        double height = 1.5;
+        double weight = 60 ;
+        double bmi = weight/(height*height);
+        System.out.println(bmi);
+     }
+}

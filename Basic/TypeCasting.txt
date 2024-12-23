@@ -1,0 +1,8 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        double a = 20.00;
+        int castb = (int) a;
+        System.out.println(castb);
+     }
+}

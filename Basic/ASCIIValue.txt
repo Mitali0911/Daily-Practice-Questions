@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        char a = 'a';
+        int ascii = a;
+        int castAscii = (int) a;
+        System.out.println(castAscii);
+        
+        
+    }
+}
