@@ -1,0 +1,32 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the cofficient a ");
+        double a = sc.nextDouble();
+         System.out.println(a);
+         System.out.println("Enter the cofficient b");
+        double b = sc.nextDouble();
+         System.out.println(b);
+         System.out.println("Enter the cofficient c ");
+        double c = sc.nextDouble();
+        System.out.println(c);
+        if(a==0){
+            System.out.println("It cannot BE a quarditic equation");
+        }
+        double discriminate = b*b -4*a*c;
+       System.out.println(discriminate);
+        if(discriminate<0){
+            System.out.println("Two Imaginary solutions");
+        }
+        else if(discriminate>0){
+            System.out.println("Two real solutions");
+        }
+        else{
+            System.out.println("One real solutions");
+        }
+        
+    }
+}
