@@ -1,0 +1,25 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Digit{
+    public static void digit(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int a = sc.nextInt();
+        System.out.println("The number is: "+a);
+        int digit = 0;
+        while(a!=0){
+            a=a/10;
+            digit++;
+        }
+         System.out.println(digit);
+            }
+        
+        
+    }
+
+class Main {
+    public static void main(String[] args) {
+     Digit.digit();  
+    }
+}

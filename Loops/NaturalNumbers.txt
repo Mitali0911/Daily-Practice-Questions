@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class Number {
+    public void number() {
+        Scanner scanner = new Scanner(System.in);
+        int a;
+        int count = 0;
+
+        System.out.println("Enter number ");
+            a = scanner.nextInt();
+            System.out.println(a);
+            if (a == 0) {
+            System.out.println(0); 
+            }
+           else{
+               while(count<=a){
+                   System.out.println(count);
+                   count++;
+               }
+           }
+        
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Number n = new Number();
+        n.number(); // Call the method to execute its logic
+    }
+}

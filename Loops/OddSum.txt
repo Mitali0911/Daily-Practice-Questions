@@ -1,0 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Oddsum{
+    public static void sum(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int a = sc.nextInt();
+        System.out.println("The number is: "+a);
+        int i = 0;
+        int sum = 0;
+        while(i<=a){
+            i++;
+            if(i%2!=0){
+              sum = sum +i;
+            }
+        }
+         System.out.println(sum);
+            }
+        
+        
+    }
+
+class Main {
+    public static void main(String[] args) {
+     Oddsum.sum();  
+    }
+}

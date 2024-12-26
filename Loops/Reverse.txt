@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Reverse{
+    public void rev (){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = sc.nextInt();
+        int rev = 0;
+        System.out.println("The number is "+ num);
+        while(num!=0){
+        int rem = num%10;
+        rev = rev * 10 + rem;
+        num = num/10;
+        }
+        System.out.println("The rev is "+ rev);
+    }
+}
+class Main {
+    public static void main(String[] args) {
+       Reverse f = new Reverse();
+       f.rev ();
+       Reverse g = new Reverse();
+       g.rev ();
+    }
+}

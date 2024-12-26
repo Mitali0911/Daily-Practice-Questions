@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Factorial{
+    public void fac(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num = sc.nextInt();
+        System.out.println("The range is "+ num);
+        int i = 1;
+        while(i<=10){
+            int multiple= num*i;
+            i++;
+            System.out.println(multiple);
+        }
+    }
+}
+class Main {
+    public static void main(String[] args) {
+       Factorial f = new Factorial();
+       f.fac();
+       Factorial g = new Factorial();
+       g.fac();
+    }
+}

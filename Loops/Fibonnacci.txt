@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Fibonnacci{
+    public static void fib(){
+        Scanner sc = new Scanner(System.in);
+          System.out.println("Enter the range: ");
+          int a = sc.nextInt();
+          System.out.println(a);
+          int x = 0;
+          int y = 1;
+          int z = 0;
+          while(y<=a){
+              z=x+y;
+            x=y;
+            y=z;
+            
+         System.out.println(z);
+             
+       
+          }
+    }
+}
+class Main {
+    public static void main(String[] args) {
+    Fibonnacci.fib();
+    }
+}
